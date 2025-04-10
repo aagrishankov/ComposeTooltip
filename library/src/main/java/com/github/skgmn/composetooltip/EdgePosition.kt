@@ -2,6 +2,7 @@ package com.github.skgmn.composetooltip
 
 import androidx.annotation.FloatRange
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.unit.Dp
@@ -25,7 +26,7 @@ class EdgePosition(
      */
     @get:FloatRange(from = 0.0, to = 1.0)
     @setparam:FloatRange(from = 0.0, to = 1.0)
-    var percent by mutableStateOf(percent)
+    var percent by mutableFloatStateOf(percent)
 
     /**
      * Amount of dps from the percentage position on the edge.
