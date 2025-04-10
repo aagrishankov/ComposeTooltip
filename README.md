@@ -1,4 +1,4 @@
-[![](https://www.jitpack.io/v/AlexeyGrishankov/ComposeTooltip.svg)](https://www.jitpack.io/#AlexeyGrishankov/ComposeTooltip)
+[![](https://jitpack.io/v/aagrishankov/ComposeTooltip.svg)](https://jitpack.io/#aagrishankov/ComposeTooltip)
 
 ![Sample app screenshot](https://github.com/skgmn/ComposeTooltip/blob/master/.github/images/sample_screenshot.png)
 
