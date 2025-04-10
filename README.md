@@ -5,7 +5,7 @@
 # Setup
 
 ```gradle
-implementation "com.github.AlexeyGrishankov:ComposeTooltip:0.3.1"
+implementation("com.github.AlexeyGrishankov:ComposeTooltip:0.4.1")
 ```
 
 # Tooltip method
