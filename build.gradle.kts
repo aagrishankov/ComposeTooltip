@@ -7,6 +7,6 @@ plugins {
     alias(libs.plugins.compose.compiler) apply false
 }
 
-tasks.create<Delete>("clean") {
+tasks.register<Delete>("clean") {
     delete = setOf(layout.buildDirectory.get().asFile)
 }

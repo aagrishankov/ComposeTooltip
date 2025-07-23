@@ -5,7 +5,7 @@ plugins {
     `maven-publish`
 }
 
-val libVersion = "0.4.0"
+val libVersion = "0.4.2"
 
 android {
     defaultConfig {
